@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRental.Business.Entities", "CarRental.Business.Entities.csproj", "{4920642A-ACEE-40C1-9DEA-E43571CFFA14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{B4F96214-6846-4BBA-AFF4-9B989B0882C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{F2874EEB-817A-4EDB-B68C-59B0AA424433}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{7BE4F85D-4011-440E-9E9F-44CDFF9FD9E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F2C89F4D-8777-446B-A975-FE6A1338FFEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRental.Client.Entities", "..\CarRental.Client.Entities\CarRental.Client.Entities.csproj", "{0C2E7ACB-CC6E-4A00-9850-F03EBB4E9836}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4920642A-ACEE-40C1-9DEA-E43571CFFA14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4920642A-ACEE-40C1-9DEA-E43571CFFA14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4920642A-ACEE-40C1-9DEA-E43571CFFA14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4920642A-ACEE-40C1-9DEA-E43571CFFA14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C2E7ACB-CC6E-4A00-9850-F03EBB4E9836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C2E7ACB-CC6E-4A00-9850-F03EBB4E9836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C2E7ACB-CC6E-4A00-9850-F03EBB4E9836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C2E7ACB-CC6E-4A00-9850-F03EBB4E9836}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4920642A-ACEE-40C1-9DEA-E43571CFFA14} = {B4F96214-6846-4BBA-AFF4-9B989B0882C6}
+		{0C2E7ACB-CC6E-4A00-9850-F03EBB4E9836} = {F2874EEB-817A-4EDB-B68C-59B0AA424433}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5440F01C-4F32-4AB4-A68C-3E4012BB31D4}
+	EndGlobalSection
+EndGlobal
